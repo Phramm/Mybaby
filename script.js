@@ -30,14 +30,8 @@ function showPlayIcon() {
   playBtn.innerHTML = `<div class="triangle"></div>`;
 }
 
-window.addEventListener('load', () => {
-  audio.play().then(() => {
-    playBtn.classList.add('playing');
-    showPauseIcon();
-  }).catch(() => {
-    showPlayIcon();
-  });
-});
+// Show initial icon
+showPlayIcon();
 
 playBtn.addEventListener('click', () => {
   if (audio.paused) {
