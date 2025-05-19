@@ -1,0 +1,299 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, #E6D6FF, #FFFFFF);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#page2 {
+  background: linear-gradient(180deg, #FFD1DC, #FFF0F5);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#page4 {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: white;
+}
+.f1div {
+  text-align: center;
+  background: linear-gradient(180deg, #FFF3B0, #FFFFFF);
+  margin: 0;
+  border-style: solid;
+  border-bottom-width: 2px;
+}
+.f2div {
+  background: linear-gradient(180deg, #D0F4DE, #F9FFF9);
+  margin: 0;
+  border-style: solid;
+  border-bottom-width: 2px;
+  text-align: center;
+  padding: 10px;
+}
+#greet {
+  margin: 10px auto 0 auto;
+  padding: 10px;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.imy {
+  background-color: white;
+  border-style: outset;
+  border-color: black;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 20px auto 0 auto;
+  width: 250px;
+  height: 150px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 90%;
+}
+#imy {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.boton {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px auto;
+  
+}
+#boton1 {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  padding: 15px 30px;
+  border-radius: 90%;
+  border-width: 1px;
+  background: linear-gradient(180deg, #FFF3B0, #FFFFFF);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+#boton1.bounce {
+  animation: bounce 0.3s ease;
+}
+
+@keyframes bounce {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(0.9); }
+  100% { transform: scale(1); }
+}
+#boton1:focus {
+  outline: none;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  flex-direction: column; 
+}
+.bip {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  padding: 5px;
+}
+#bop {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.para {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2px;
+}
+#imyy {
+  background-color: white;
+  border-style: outset;
+  border-color: black;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  padding: 5px;
+  border-radius: 20px;
+}
+.gitna {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: white;
+  border-style: outset;
+  border-color: black;
+  padding: 10px;
+  border-radius: 15px;
+}
+#kasi {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2px;
+  display: flex;
+}
+.jj {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.gitnangaso-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  max-width: 100%;
+}
+.bazta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  text-align: center;
+}
+.cute {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2px;
+  display: flex;
+}
+.bgt {
+  padding: 15px 30px;
+  border-radius: 90%;
+  border-width: 1px;
+  background: linear-gradient(180deg, #FFD1DC, white);
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+}
+#boton2 {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  padding: 15px 30px;
+  border-radius: 90%;
+  border-width: 1px;
+  background: linear-gradient(180deg, #C8FACC, white);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+#boton2.bounce {
+  animation: bounce 0.3s ease;
+}
+
+@keyframes bounce {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(0.9); }
+  100% { transform: scale(1); }
+}
+#boton2:focus {
+  outline: none;
+}
+.y2k-play-btn {
+  display: block;
+  margin: 0 auto;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(180deg, #A0E9AF, #58D68D);
+  border: 3px solid #40B86F;
+  border-radius: 12px;
+  cursor: pointer;
+  position: relative;
+  box-shadow:
+    0 4px 6px rgba(0,0,0,0.2),
+    inset 0 0 10px #7AF9A2;
+  transition: transform 0.3s ease;
+  animation: pulse 2s infinite alternate;
+}
+
+.y2k-play-btn:hover {
+  transform: scale(1.1);
+  box-shadow:
+    0 6px 10px rgba(0,0,0,0.3),
+    inset 0 0 15px #85F9B7;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 14px solid transparent;
+  border-bottom: 14px solid transparent;
+  border-left: 24px solid #0B6E33;
+  position: absolute;
+  left: 18px;
+  top: 16px;
+  animation: bounce 1.5s infinite ease-in-out;
+}
+
+.pause {
+  position: absolute;
+  left: 20px;
+  top: 14px;
+  width: 24px;
+  height: 28px;
+  display: flex;
+  justify-content: space-between;
+  animation: none;
+}
+
+.pause .bar {
+  width: 6px;
+  height: 28px;
+  background-color: #0B6E33;
+  border-radius: 2px;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow:
+      0 4px 6px rgba(0,0,0,0.2),
+      inset 0 0 10px #7AF9A2;
+  }
+  100% {
+    box-shadow:
+      0 0 20px #55D68C,
+      inset 0 0 20px #A0F9B8;
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
